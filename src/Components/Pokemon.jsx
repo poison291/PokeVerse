@@ -62,7 +62,7 @@ export default function Pokemon() {
 
   return (
     <>
-      <p className="note">(Note This build is On Construction)</p>
+      <p className="note">(Note This build is On Construction) Made by Poison</p>
       <h1 className="title">Catch Your Pokemon</h1>
 
       <div className="parent">
