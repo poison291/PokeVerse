@@ -3,7 +3,6 @@
     border-radius: 50%;
     background-color: rgb(193, 241, 33);
     border: none;
-    position: fixed;
     z-index: 9999;  
     cursor: pointer;
     height: 60px;
