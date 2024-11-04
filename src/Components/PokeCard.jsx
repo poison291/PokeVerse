@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaHeart } from "react-icons/fa";
+import { GiCrossedSwords } from "react-icons/gi";
+import { RiSpeedFill } from "react-icons/ri";
 
 
 export default function PokeCard({ pokeData }) {
@@ -17,16 +20,16 @@ export default function PokeCard({ pokeData }) {
         </div>
         <div className="grid-three-cols">
         <div className="pokemon-info">
-          <span> Hp:</span>
-          <p>{pokeData.stats[0].base_stat}</p>
+          <span className='health'><FaHeart /></span>
+          <p className='hp'>{pokeData.stats[0].base_stat}</p>
         </div>
         <div className="pokemon-info">
-          <span>Attack:</span>
-          <p>{pokeData.stats[1].base_stat}</p>
+          <span className='sword'><GiCrossedSwords /></span>
+          <p className='attack'>{pokeData.stats[1].base_stat}</p>
         </div>
         <div className="pokemon-info">
-          <span>Speed: </span>
-          <p>{pokeData.stats[5].base_stat}</p>
+          <span className='spd'><RiSpeedFill /> </span>
+          <p className='speed'>{pokeData.stats[5].base_stat}</p>
         </div>
       </div>
       </div>
