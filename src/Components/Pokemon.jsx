@@ -67,12 +67,12 @@ export default function Pokemon() {
           top: 0,
           behavior: "smooth"
         })} className="arrow"><FaArrowUpLong /></button>
-      <p className="note">(!Note: This build is On Construction)</p>
+      <p className="note">(!Note: This build is On Progress)</p>
       <h1 className="title">Catch Your Pokemon</h1>
 
       <div className="parent">
-        {Pokemon.map((pokemon) => {
-          return <PokeCard key={pokemon.id} pokeData={pokemon} />;
+        {Pokemon.map((pokemon, index) => {
+          return <PokeCard key={index} pokeData={pokemon} />;
         })}
       </div>
     </>
