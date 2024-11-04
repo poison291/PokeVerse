@@ -2,13 +2,19 @@ import React from 'react'
 import { FaHeart } from "react-icons/fa";
 import { GiCrossedSwords } from "react-icons/gi";
 import { RiSpeedFill } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
+import PokeStat from './PokeStat';
 
 
 export default function PokeCard({ pokeData }) {
+  const navigate = useNavigate();
+  const pagehandleClick = () => {
+    navigate("/PokeStat", { state: { pokeData } }); 
+  }
   return (
     <>
 
-      <div className="pokeCard-container">
+      <div onClick={pagehandleClick} className="pokeCard-container">
 
         <figure className='.bloom-container '>
         <img className='bloom-image' src={pokeData.sprites.other.dream_world.front_default} alt={pokeData.name} />
