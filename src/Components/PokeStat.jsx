@@ -37,16 +37,16 @@ export default function PokeStat() {
     </div>
     <div className="grid-three-cols">
         <div className="pokemon-info">
-          <span className='health'><FaHeart /></span>
-          <p className='hp'>{pokeData.stats[0].base_stat}</p>
+          <span className='Stathealth'><FaHeart /></span>
+          <p className='Stathp'>{pokeData.stats[0].base_stat}</p>
         </div>
         <div className="pokemon-info">
-          <span className='sword'><GiCrossedSwords /></span>
-          <p className='attack'>{pokeData.stats[1].base_stat}</p>
+          <span className='Statsword'><GiCrossedSwords /></span>
+          <p className='Statattack'>{pokeData.stats[1].base_stat}</p>
         </div>
         <div className="pokemon-info">
-          <span className='spd'><RiSpeedFill /> </span>
-          <p className='speed'>{pokeData.stats[5].base_stat}</p>
+          <span className='Statspd'><RiSpeedFill /> </span>
+          <p className='Statspeed'>{pokeData.stats[5].base_stat}</p>
         </div>
       </div>
  </div>
