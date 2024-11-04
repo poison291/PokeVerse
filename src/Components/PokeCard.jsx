@@ -9,9 +9,10 @@ export default function PokeCard({ pokeData }) {
     <>
 
       <div className="pokeCard-container">
- 
-      
-        <img src={pokeData.sprites.other.dream_world.front_default} alt={pokeData.name} />
+
+        <figure className='.bloom-container '>
+        <img className='bloom-image' src={pokeData.sprites.other.dream_world.front_default} alt={pokeData.name} />
+        </figure>
         <h1 className='name'>{pokeData.name}</h1>
         <div className="pokemon-info pokemon-highlight">
           <p className='pokeType'>

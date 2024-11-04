@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Pokemon.css";
 import PokeCard from "./PokeCard";
+import { FaArrowUpLong } from "react-icons/fa6";
 
 export default function Pokemon() {
   const [Pokemon, setPokemon] = useState([]);
@@ -62,6 +63,10 @@ export default function Pokemon() {
 
   return (
     <>
+        <button onClick={() => scrollTo({
+          top: 0,
+          behavior: "smooth"
+        })} className="arrow"><FaArrowUpLong /></button>
       <p className="note">(!Note: This build is On Construction)</p>
       <h1 className="title">Catch Your Pokemon</h1>
 
