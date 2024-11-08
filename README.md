@@ -1,8 +1,25 @@
-# React + Vite
+# Pokéverse - Pokémon Detail Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Explore the world of Pokémon with **Pokéverse**! This web application provides detailed stats, types, abilities, and more for various Pokémon, all powered by **PokéAPI**. Discover your favorite Pokémon or explore new ones effortlessly with infinite scrolling.
 
-Currently, two official plugins are available:
+## Features
+- Infinite scrolling to browse through a vast list of Pokémon
+- View essential details including stats, types, and abilities
+- Clean and simple interface for easy navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+Check out the deployed application here: [**Pokéverse**](https://poke-verse-poison.vercel.app/)
+
+## Technologies Used
+- **React** - JavaScript library for building user interfaces
+- **Vite** - Fast frontend build tool for optimized React applications
+- **CSS** - Styling for a responsive and user-friendly layout
+- **PokéAPI** - Source for Pokémon data
+- **Vercel** - Deployment platform for the live demo
+
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/poison291/PokeVerse.git
+
+
